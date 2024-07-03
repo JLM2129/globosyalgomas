@@ -1,0 +1,204 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box ;
+	text-decoration: none;
+	list-style: none;
+  
+}
+		body{
+            
+            margin:0 auto;
+            background-size:cover;
+            background-color:grey;
+            background-image: url("arcomilove1.jpg");
+            margin-top: 0; 
+            margin-bottom: 30;
+            margin-left: 20;
+            font-size: 100%;
+           
+        }
+        h1{
+        color: red;
+        font-family:bradley hand itc;
+       font-size: 5vw;
+       
+      }
+      h2{
+      max-width: 80%;
+      margin: 0 auto;
+        color: red;
+        font-family:bradley hand itc;
+        font-size: 3vw;
+      }
+      h3{
+        color: purple;
+        font-family:bradley hand itc;
+        font-size: 3.5vw;
+        margin: 50 auto;
+        text-align: center;
+
+      }
+
+      p{
+      text-align: center;
+      border: rgb(201, 167, 18) 2px solid;
+      margin: 50px;
+        color: rgb(2, 2, 22);
+        text-shadow:black ;
+        font-family:bradley hand itc;
+        font-size: 3vw;
+      }
+      .bloque-0 img {
+margin-top: 5%; 
+      
+    margin-left: 1%;
+    border-style:ridge;	
+transition:all .5s ease-in-out;
+border-radius: 10%;
+max-width: 30%;
+    }
+    .bloque-1  img{
+
+      margin-top: 10%; 
+      margin-bottom: 10%;
+      
+    margin-left: 1%;
+    border-style:ridge;	
+transition:all .5s ease-in-out;
+border-radius: 10%;
+max-width: 30%;
+    }
+.bloque-2 img{
+  margin-top: 5%; 
+      
+    margin-left: 1%;
+    border-style:groove;	
+transition:all .5s ease-in-out;
+border-radius: 25%;
+max-width: 30%;
+}
+img:hover {
+  -webkit-transform:scale(1.05);transform:scale(1.05);
+  
+}
+
+.bloque-3  img {
+  margin-top: 5%; 
+  width: 20vw; /* Ancho deseado para las imágenes */
+  height: 20vw; /* Alto deseado para las imágenes */
+  object-fit: cover; 
+margin-left: 1.5%;
+border-style:ridge;	
+transition:all .5s ease-in-out;
+border-radius: 50%;
+max-width: 14%;
+}
+    
+
+
+
+    .container {
+      max-width: 100%;
+        
+    }
+header {
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height:25% ;
+  position: fixed;
+  z-index: 80;
+right: 0.5%;
+
+}
+nav {
+  float: right;
+  padding:10px 10px;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  border:aqua;
+  border-radius:10px;
+  
+}
+nav ul li {
+  float: left;
+  font-family: bradley hand itc, Helvetica, sans-serif;
+  font-size: 200%;
+border:aqua;
+  border-radius:10px;
+  padding:0vw 0.3vw;
+}
+nav ul li a {
+  display: table; 
+  padding:10px 5px;
+  color: #fff;
+  text-decoration: none;
+font-size: 3vw;
+}
+nav ul li:hover {
+  background: #eca085;
+  padding:0vw 0.3vw;
+  background: linear-gradient(to bottom,  #0c6081, #d3d3e2);
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+button{
+  border:aqua;
+  border-radius:10px;
+  appearance:auto ;
+  font-family: bradley hand itc, Helvetica, sans-serif;
+  cursor:pointer;
+  font-size: 3vw;
+  background-color:transparent;
+  color: #fff;
+  padding:0.7vw 2vw;
+
+}
+
+
+
+.dropdown-options {
+  display: none;
+  position:static;
+  overflow: auto;
+  background-color:transparent;
+  font-family: bradley hand itc, Helvetica, sans-serif;
+  border-radius:5px;
+  
+  
+
+  padding:0vw 0.3vw;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+
+}
+
+.dropdown-options a {
+  display: block;
+  box-shadow: 0px 10px 10px 0px rgba(161, 64, 64, 0.4);
+  font-size: 2vw;
+  text-decoration: none;
+  padding:0vw 0.3vw;
+}
+
+.dropdown-options a:hover {
+ background: #f7f3f3;
+  color: #2d3332;
+  border-radius:5px;
+  padding:0vw 0.3vw;
+}
+.colorido {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
